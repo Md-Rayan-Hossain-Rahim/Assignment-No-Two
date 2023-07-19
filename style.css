@@ -1,0 +1,470 @@
+*{
+    box-sizing: border-box;
+}
+nav{
+    background: #FFF;
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+}  
+.logo-container{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.logo-container img{
+    width: 86.041px;
+    height: 40px;
+    flex-shrink: 0;
+    margin-left: 80px;
+}
+.logo-container p{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.g{
+    color: #FF42A5;
+}
+.nav-items{
+    width: 50%;
+    display: flex;;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 30px;
+}
+.nav-items a{
+    text-decoration: none;
+    margin: 0px 30px;
+}
+.follow-btn{
+    display: flex;
+    align-items: center;
+    background-color: border-radius 8px;
+    background: rgba(11, 2, 35, 0.10);
+    border-radius: 7px;
+    padding:20px;
+}
+.follow-logo{
+    width: 33.916px;
+    height: 24px;
+    padding: 5px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    height: 600px;
+
+
+}
+.background-img{
+    width: 700px;
+    height: 546px;
+}
+.banner-img{
+    width: 650px;
+    height: 546px;
+}
+.banner-title{
+    margin-top: -520px;
+    margin-left: -50px;
+}
+#banner-title{
+    margin-left: 180px;
+}
+#banner-h2{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-family: Work Sans;
+    font-style: normal;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+#banner-h1{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 95px;
+    font-style: normal;
+    line-height: normal;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+.pera{
+    color: #534C64;
+    display: flex;
+    align-items: center;
+}
+.pera-icon{
+    width: 33.916px;
+    height: 24px;
+    padding: 5px;
+}
+
+.btn-banner{
+    color: #FFF;
+    font-size: 10px;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #FF42A5;
+}
+.btn-two{
+    color: #FFF;
+    font-size: 10px;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+}
+.second-banner{
+    display: flex;
+    width: 1970px;
+    height: 600px;
+    flex-shrink: 0;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    margin-top: -55px;
+}
+.second-img{
+    width: 800px;
+    height: 489px;
+    flex-shrink: 0;
+    margin-left: 30px;
+}
+.we-are-gamer{
+    text-align: right;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 70px;
+    margin-right: 100px;
+}
+#pera{
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 30px;
+    margin-left: 300px;
+    margin-right: 100px;
+}   
+.second-btn{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    margin-left: 820px;
+    
+}
+#second-pera{
+    text-align: right;
+    margin-right: 100px;
+}
+#theard-pera{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: right;
+    margin-top: 8px;
+    margin-right: 100px;
+}
+.item-three{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.head-line-three{
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+}
+#heading{
+    color: #534C64;
+    font-size: 15px;
+    width:300px;
+    font-style: normal;
+    line-height: 30px;
+}
+.play-btn{
+    width: 48px;
+    height: 48px;
+    justify-content: center;
+    margin-top: -5200px;
+}
+.suzuki{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tiger{
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.play-instantly{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.p{
+    color: #534C64;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0px 20%;
+}
+.gsxr-img{
+    width: 700px;
+    height: 900px;
+    margin-right: 250px;
+}
+
+.short-img{
+    position: relative;
+    margin-left: -120px;
+    bottom: 200px;
+}
+.last-banner{
+    display: flex;
+    justify-content: space-between;
+}
+.none-bro{
+    position: relative;
+    margin-left: 550px;
+    bottom: 150px;
+}
+.last-title{
+    color: #0B0223;
+    font-size: 48px;
+    font-style: normal;
+    weight: 200;
+    height: 200px;
+    text-align: center;
+   margin-top: 250px;
+}
+#joy-bangla{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.last-pera{
+    color: #534C64;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    margin-top: 50px;
+}
+.last-div{
+    text-align: center;
+}
+#dog{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 250px;
+}
+footer{
+    width: 1960px;
+    height: 879px;
+    flex-shrink: 0;
+    background: #0B0223;
+}
+.last-footer{
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.last-nav{
+    color: wheat;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.last-footer img{
+    width: 86.041px;
+    height: 40px;
+    text-align: center;
+    flex-shrink: 0;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:576px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .logo-container{
+        margin-top: 50px;
+        margin-right: 85px;
+    }
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-items{
+        flex-direction: column;
+
+    }
+    .nav-items a{
+        margin-top: 20px;
+    }
+    .banner-container{
+        flex-direction: column;
+    }
+    .background-img{
+        width: 30%;
+    }
+    .banner-title{
+        width: 365px;
+        margin-left: 15px;
+    }
+    #banner-title{
+        margin-left: 20px;
+    }
+    .banner-img{
+        margin-top: 15%;
+        width: 25%;
+    }
+    .second-banner{
+        flex-direction: column;
+        width: 350px;
+        height:1000px;
+        margin-top: 385px;
+    }
+    .second-img{
+        margin-left: -10px;
+        width: 100%;
+        height: auto;
+    }
+    .we-are-gamer{
+        margin:50px;
+    }
+    #pera{
+        text-align: left;
+        margin:50px;
+    }
+    .second-btn{
+        margin: 10px 50px;
+    }
+    #second-pera{
+        text-align: right;
+        margin-top: 20px;
+    }
+    .yellow{
+        width: 300px;
+        margin-left: 10px;
+        
+    }
+    .menu{
+        flex-direction: column;
+    }
+    .suzuki{
+        flex-direction: column;
+    }
+    .tiger{
+        width: 30px;
+        height: auto;
+      margin-left: 10px;
+    }
+    .gsxr-img{
+        width: 340px;
+        height: 580px;
+    }
+    .second-hand{
+        width: 250px;
+        margin-top: 80px;
+        margin-left: 100px;
+    }
+    .last-banner{
+        flex-direction: column;
+    }
+    .big-bro{
+        width: 347px;
+        height: 580px;
+    }
+    .none-bro{
+        width: 200px;
+        margin-top: 50px;
+        margin-left: 150px;
+
+    }
+    .last-title{
+        font-size: 35px;
+        margin-top: 5px;
+        margin-left: -40px;
+    }
+    .last-pera{
+        margin-top: 10px;
+    }
+    #dog{
+        margin-left:200px;
+    }
+
+
+
+
+
+
+ }
